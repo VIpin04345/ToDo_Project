@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional To-Do App</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+<div class="container">
+    <h1>My To-Do List</h1>
+
+    <form method="POST" class="task-form">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn-add">Add Task</button>
+    </form>
+
+    <ul class="task-list">
+        {% for task in tasks %}
+        <li class="{% if task.completed %}completed{% endif %}">
+            <span>{{ task.title }} - {{ task.description }}</span>
+            <a href="{% url 'toggle_completed' task.id %}" class="btn-toggle">
+                {% if task.completed %}Mark Incomplete{% else %}Mark Complete{% endif %}
+            </a>
+            <a href="{% url 'delete' task.id %}" class="btn-delete">Delete</a>
+        </li>
+        {% empty %}
+        <li>No tasks yet!</li>
+        {% endfor %}
+    </ul>
+</div>
+</body>
+</html>

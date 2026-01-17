@@ -79,3 +79,12 @@ This project helps users add, view, update, and delete daily tasks from the comm
 - Good project for Python beginners / Freshers
 
 - Useful for interviews & GitHub profile
+
+
+# 🙌 Future Improvements
+
+- File handling (save tasks permanently)
+
+- GUI version using Tkinter
+
+- Date & priority for tasks

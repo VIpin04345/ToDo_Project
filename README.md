@@ -88,3 +88,10 @@ This project helps users add, view, update, and delete daily tasks from the comm
 - GUI version using Tkinter
 
 - Date & priority for tasks
+
+
+
+# 👨‍💻 Author
+
+Vipin Yadav
+Python Learner | Aspiring Software Engineer

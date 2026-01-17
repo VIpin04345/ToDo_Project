@@ -59,3 +59,12 @@ This project helps users add, view, update, and delete daily tasks from the comm
 4. Run the program
 
        python todo.py
+
+
+
+# 📸 Sample Output
+1. Add Task
+2. View Tasks
+3. Update Task
+4. Delete Task
+5. Exit

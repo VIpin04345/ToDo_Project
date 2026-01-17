@@ -68,3 +68,14 @@ This project helps users add, view, update, and delete daily tasks from the comm
 3. Update Task
 4. Delete Task
 5. Exit
+
+
+# 🎯 Purpose of This Project
+
+- Practice Python basics
+
+- Improve logical thinking
+
+- Good project for Python beginners / Freshers
+
+- Useful for interviews & GitHub profile

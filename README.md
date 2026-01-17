@@ -19,3 +19,18 @@ This project helps users add, view, update, and delete daily tasks from the comm
 * 💾 Data stored during program execution
 
 * 🧠 Beginner-friendly logic
+
+
+# 🛠️ Technologies Used
+
+* Python 3
+
+* Core Python concepts
+
+   * Lists
+
+   * Loops
+
+   * Functions
+
+   * Conditional statements

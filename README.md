@@ -39,3 +39,23 @@ This project helps users add, view, update, and delete daily tasks from the comm
 # 📂 Project Structure
      todo.py
      README.md
+# ▶️ How to Run the Project
+
+1. Make sure Python is installed
+
+       python --version
+
+
+2. Clone this repository
+
+       git clone https://github.com/VIpin04345
+
+
+3. Go to project folder
+
+       cd python-todo-project
+
+
+4. Run the program
+
+       python todo.py

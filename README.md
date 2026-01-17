@@ -34,3 +34,8 @@ This project helps users add, view, update, and delete daily tasks from the comm
    * Functions
 
    * Conditional statements
+
+
+# 📂 Project Structure
+     todo.py
+     README.md
